@@ -162,8 +162,8 @@ class IastScheme(RomanScheme):
 class HkScheme(RomanScheme):
     def __init__(self):
         super(HkScheme, self).__init__({
-            'vowels': s("""a A i I u U R RR lR lRR e ai o au"""),
-            'marks': s("""A i I u U R RR lR lRR e ai o au"""),
+            'vowels': s("""a A i I u U R RR lR lRR ea ai oa au e o"""),
+            'marks': s("""A i I u U R RR lR lRR ea ai oa au e o"""),
             'virama': [''],
             'yogavaahas': s('M H ~'),
             'consonants': s("""
